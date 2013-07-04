@@ -1,0 +1,14 @@
+{application, openshiftlibs,
+ [
+  {description, "Erlang openshift libraries."},
+  {vsn, git},
+  {modules, [
+  ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { openshiftlibs, []}},
+  {env, []}
+ ]}.
