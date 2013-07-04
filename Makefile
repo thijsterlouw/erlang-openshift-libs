@@ -3,26 +3,9 @@
 .PHONY : update
 SHELL := /bin/bash
 
-############################
-#    YOUR CHANGES BELOW    #
-############################
-
-#COOKIE=blabla
-#APP=appname
-#CONFIG=rel/files/sys
-
-
-############################
-#   COMMON ENTRIES BELOW   #
-############################
-
-# First target so we can run without explicit targets
-# inherits from common Makefile, but runs first
 all::       update 
-# getdeps for deployar and setup for ci
 setup::		update
 getdeps::   update
-
 
 ############################
 #    DO NOT EDIT BELOW     #
